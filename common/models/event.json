@@ -18,16 +18,52 @@
       "type": "string",
       "required": true
     },
+    "recurring": {
+      "type": "boolean",
+      "required": true
+    },
     "date": {
       "type": "date",
-      "required": true
+      "required": false
+    },
+    "recurringDate": {
+      "type": "string",
+      "required": false
     },
     "notes": {
       "type": "string"
     },
+    "age": {
+      "type": "string",
+      "required": true
+    },
+    "fees": {
+      "type": "boolean",
+      "required": true
+    },
     "skillLevel": {
       "type": "string",
       "required": true
+    },
+    "address": {
+      "type": "geopoint",
+      "required": false
+    },
+    "organization": {
+      "type": "string",
+      "required": false
+    },
+    "email": {
+      "type": "string",
+      "required": false
+    },
+    "website": {
+      "type": "string",
+      "required": false
+    },
+    "date": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],

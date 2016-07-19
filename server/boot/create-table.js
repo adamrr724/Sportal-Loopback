@@ -3,7 +3,7 @@ module.exports = function(app) {
     if (err) throw err;
 
     app.models.Event.create([
-      {name: 'Test', sport: 'test', date: '2016-07-18', notes: 'test', skillLevel: 'test'},
+      {name: 'Test', sport: 'test', notes: 'test', skillLevel: 'test', recurring: '1', age: 'test', fees: 'test' },
   ], function(err, Events) {
       if (err) throw err;
 
