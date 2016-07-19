@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "sportaldb"
+  },
+  "AccessToken": {
+    "dataSource": "sportaldb",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "sportaldb",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "sportaldb",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "sportaldb",
+    "public": false
+  },
+  "Event": {
+    "dataSource": "sportaldb",
+    "public": true
+  }
+}
