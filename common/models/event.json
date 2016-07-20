@@ -31,7 +31,8 @@
       "required": false
     },
     "notes": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "age": {
       "type": "string",
@@ -44,6 +45,10 @@
     "skillLevel": {
       "type": "string",
       "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": false
     },
     "address": {
       "type": "geopoint",
@@ -58,10 +63,6 @@
       "required": false
     },
     "website": {
-      "type": "string",
-      "required": false
-    },
-    "date": {
       "type": "string",
       "required": false
     }
