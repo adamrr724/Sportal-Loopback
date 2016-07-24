@@ -24,11 +24,11 @@
     },
     "recurring": {
       "type": "boolean",
-      "required": true
+      "required": false
     },
     "date": {
       "type": "date",
-      "required": false
+      "required": true
     },
     "recurringDate": {
       "type": "string",
@@ -44,7 +44,7 @@
     },
     "fees": {
       "type": "boolean",
-      "required": true
+      "required": false
     },
     "skillLevel": {
       "type": "string",
@@ -64,7 +64,7 @@
     },
     "email": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "website": {
       "type": "string",
