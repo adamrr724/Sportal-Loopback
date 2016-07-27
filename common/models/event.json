@@ -22,6 +22,10 @@
       "type": "string",
       "required": true
     },
+    "otherSport": {
+      "type": "string",
+      "required": false
+    },
     "recurring": {
       "type": "boolean",
       "required": false
