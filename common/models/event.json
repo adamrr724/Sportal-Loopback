@@ -58,9 +58,13 @@
       "type": "string",
       "required": false
     },
-    "address": {
+    "addressGeo": {
       "type": "geopoint",
-      "required": false
+      "required": true
+    },
+    "addressName": {
+      "type": "string",
+      "required": true
     },
     "organization": {
       "type": "string",
